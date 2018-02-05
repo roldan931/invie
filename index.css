@@ -5,3 +5,13 @@ body {
 img {
     max-width: 100%;
 }
+
+img#responsive {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    img#reponsive {
+        display: block;
+    }
+}
